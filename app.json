@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "trabalhajovem-app",
+    "slug": "trabalhajovem-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "splash": {
+      "image": "./assets/img/trabalhajovem-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#173359"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/favicon.png",
+        "backgroundColor": "#173359"
+      }
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    }
+  }
+}
